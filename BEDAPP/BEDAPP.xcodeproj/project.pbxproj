@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8285BF462F2380A80018603B /* BEDAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEDAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8285BF462F2380A80018603B /* BEDAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BEDAPP.app; path = "/Users/riccardopuggioni/Desktop/Apple Academy/BEDAPP/BEDAPP/build/Debug-iphoneos/BEDAPP.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8285BF482F2380A80018603B /* BEDAPP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BEDAPP;
+			sourceTree = "<group>";
+		};
+		829242942F28D3C7003607AB /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		829242962F28D3D2003607AB /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +43,9 @@
 			isa = PBXGroup;
 			children = (
 				8285BF482F2380A80018603B /* BEDAPP */,
-				8285BF472F2380A80018603B /* Products */,
+				829242962F28D3D2003607AB /* View */,
+				829242942F28D3C7003607AB /* Model */,
 			);
-			sourceTree = "<group>";
-		};
-		8285BF472F2380A80018603B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8285BF462F2380A80018603B /* BEDAPP.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +65,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				8285BF482F2380A80018603B /* BEDAPP */,
+				829242942F28D3C7003607AB /* Model */,
+				829242962F28D3D2003607AB /* View */,
 			);
 			name = BEDAPP;
 			packageProductDependencies = (
@@ -95,7 +100,7 @@
 			mainGroup = 8285BF3D2F2380A80018603B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8285BF472F2380A80018603B /* Products */;
+			productRefGroup = 8285BF3D2F2380A80018603B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
