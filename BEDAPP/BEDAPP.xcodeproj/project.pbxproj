@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		82B646EF2F2BAA20007E6703 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = 82B646EE2F2BAA20007E6703 /* CareKit */; };
+		82B646F12F2BAA24007E6703 /* CareKitFHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 82B646F02F2BAA24007E6703 /* CareKitFHIR */; };
+		82B646F32F2BAA28007E6703 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = 82B646F22F2BAA28007E6703 /* CareKitStore */; };
+		82B646F52F2BAA2C007E6703 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 82B646F42F2BAA2C007E6703 /* CareKitUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		82B646A82F29F47D007E6703 /* BEDAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEDAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -33,6 +40,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B646EF2F2BAA20007E6703 /* CareKit in Frameworks */,
+				82B646F12F2BAA24007E6703 /* CareKitFHIR in Frameworks */,
+				82B646F52F2BAA2C007E6703 /* CareKitUI in Frameworks */,
+				82B646F32F2BAA28007E6703 /* CareKitStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +57,15 @@
 				829242962F28D3D2003607AB /* View */,
 				829242942F28D3C7003607AB /* Model */,
 				82B646A82F29F47D007E6703 /* BEDAPP.app */,
+				82B646ED2F2BAA20007E6703 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		82B646ED2F2BAA20007E6703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +90,10 @@
 			);
 			name = BEDAPP;
 			packageProductDependencies = (
+				82B646EE2F2BAA20007E6703 /* CareKit */,
+				82B646F02F2BAA24007E6703 /* CareKitFHIR */,
+				82B646F22F2BAA28007E6703 /* CareKitStore */,
+				82B646F42F2BAA2C007E6703 /* CareKitUI */,
 			);
 			productName = BEDAPP;
 			productReference = 82B646A82F29F47D007E6703 /* BEDAPP.app */;
@@ -356,6 +379,29 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82B646EE2F2BAA20007E6703 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		82B646F02F2BAA24007E6703 /* CareKitFHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitFHIR;
+		};
+		82B646F22F2BAA28007E6703 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+		82B646F42F2BAA2C007E6703 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8285BF3E2F2380A80018603B /* Project object */;
 }
