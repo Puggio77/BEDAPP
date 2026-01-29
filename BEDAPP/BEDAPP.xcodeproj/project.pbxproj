@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8285BF462F2380A80018603B /* BEDAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BEDAPP.app; path = "/Users/riccardopuggioni/Desktop/Apple Academy/BEDAPP/BEDAPP/build/Debug-iphoneos/BEDAPP.app"; sourceTree = "<absolute>"; };
+		82B646A82F29F47D007E6703 /* BEDAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEDAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +45,7 @@
 				8285BF482F2380A80018603B /* BEDAPP */,
 				829242962F28D3D2003607AB /* View */,
 				829242942F28D3C7003607AB /* Model */,
+				82B646A82F29F47D007E6703 /* BEDAPP.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +73,7 @@
 			packageProductDependencies = (
 			);
 			productName = BEDAPP;
-			productReference = 8285BF462F2380A80018603B /* BEDAPP.app */;
+			productReference = 82B646A82F29F47D007E6703 /* BEDAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

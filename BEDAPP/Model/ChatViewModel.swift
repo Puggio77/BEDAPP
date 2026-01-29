@@ -20,7 +20,7 @@ class ChatViewModel {
     let symptomsList = [
         "Tachycardia", "Sweating", "Tremors", "Shortness of breath",
         "Chest pain", "Nausea", "Dizziness", "Derealization",
-        "Fear of losing control", "Fear of dying"
+        "Fear of losing control"
     ]
     
     private let questions = [
