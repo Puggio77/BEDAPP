@@ -17,9 +17,22 @@
 		82B646A82F29F47D007E6703 /* BEDAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEDAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		82B647252F2BC095007E6703 /* Exceptions for "BEDAPP" folder in "BEDAPP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8285BF452F2380A80018603B /* BEDAPP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8285BF482F2380A80018603B /* BEDAPP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				82B647252F2BC095007E6703 /* Exceptions for "BEDAPP" folder in "BEDAPP" target */,
+			);
 			path = BEDAPP;
 			sourceTree = "<group>";
 		};
@@ -82,6 +95,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				82B6472B2F2BC0B5007E6703 /* PBXTargetDependency */,
+				82B647292F2BC0B1007E6703 /* PBXTargetDependency */,
+				82B647272F2BC0AE007E6703 /* PBXTargetDependency */,
+				82B647242F2BC075007E6703 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				8285BF482F2380A80018603B /* BEDAPP */,
@@ -155,6 +172,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82B647242F2BC075007E6703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 82B647232F2BC075007E6703 /* CareKit */;
+		};
+		82B647272F2BC0AE007E6703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 82B647262F2BC0AE007E6703 /* CareKitFHIR */;
+		};
+		82B647292F2BC0B1007E6703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 82B647282F2BC0B1007E6703 /* CareKitStore */;
+		};
+		82B6472B2F2BC0B5007E6703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 82B6472A2F2BC0B5007E6703 /* CareKitUI */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8285BF4F2F2380A90018603B /* Debug */ = {
@@ -397,6 +433,26 @@
 			productName = CareKitStore;
 		};
 		82B646F42F2BAA2C007E6703 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
+		};
+		82B647232F2BC075007E6703 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		82B647262F2BC0AE007E6703 /* CareKitFHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitFHIR;
+		};
+		82B647282F2BC0B1007E6703 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+		82B6472A2F2BC0B5007E6703 /* CareKitUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 82B646EC2F2B7ED9007E6703 /* XCRemoteSwiftPackageReference "CareKit" */;
 			productName = CareKitUI;

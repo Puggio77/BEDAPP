@@ -65,7 +65,7 @@ struct ContentView: View {
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     NavigationLink {
-                        ReportsListView()
+                        ReportView()
                     } label: {
                         Label("My reports", systemImage: "doc.text.magnifyingglass")
                     }

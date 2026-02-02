@@ -55,7 +55,7 @@ struct ReportsListView: View {
             } else {
                 List {
                     ForEach(reports) { report in
-                        ReportRowView(report: report, dateFormatter: dateFormatter) {
+                        AttackReportRowView(report: report, dateFormatter: dateFormatter) {
                             shareReport(report)
                         }
                     }
@@ -106,7 +106,7 @@ struct ReportsListView: View {
     }
 }
 
-struct ReportRowView: View {
+struct AttackReportRowView: View {
     let report: EpisodeReport
     let dateFormatter: DateFormatter
     let onShare: () -> Void
